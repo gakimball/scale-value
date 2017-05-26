@@ -1,3 +1,5 @@
+'use strict';
+
 const _clamp = require('lodash.clamp');
 
 module.exports = (inputMin, inputMax, outputMin, outputMax) => (input, clamp) => {
